@@ -41,6 +41,8 @@
    - This plugin extends Jenkins Pipeline with steps to build, publish, and run Docker containers as part of your Pipeline scripts.
    - It provides a convenient way to manage Docker containers directly from Jenkins Pipelines.
    - Install it through the plugin manager like the others.
+9. **Maven Integration**:
+   - This plugin provides a deep integration between Jenkins and Maven. It adds support for automatic triggers between projects depending on SNAPSHOTs as well       as the automated configuration of various Jenkins publishers such as Junit.
 
 After installing these plugins, you may need to configure them according to your specific environment and requirements. This typically involves setting up credentials, configuring paths, and specifying options in Jenkins global configuration or individual job configurations. Each plugin usually comes with its own set of documentation to guide you through the configuration process.
 
